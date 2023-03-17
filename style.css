@@ -1,0 +1,336 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0px solid #000000;
+}
+body{
+    margin: 0% 7% ;
+    font-family: sans-serif;
+    /* background-color: rgba(234, 232, 232, 0.822); */
+}
+.nav{
+    border: 0px solid #000;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    border: 0px solid #000;
+    margin-right: 10%;
+}
+.btn-1 , .btn-2{
+    text-decoration: none;
+    /* padding-right:15px ; */
+}
+.btn-1{
+    color: rgb(94, 94, 94);
+}
+.btn-2{
+    color: rgb(207, 207, 207);
+}
+.li-1 , .li-2{
+    list-style: none;
+    height: 2vh;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+.li-2{
+    background-color: #000;
+}
+.logo{
+    border: 0px solid #000;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+    background: rgb(1,251,243);
+    background: linear-gradient(90deg, rgba(1,251,243,1) 50%, rgba(0,65,255,1) 100%);
+}
+.main{
+    border: 0px solid #000;
+    display: flex;
+    width: 100% auto;
+    flex-direction: column;
+    text-align: center;
+}
+.section-1{
+    border: 0px solid forestgreen;
+    width: 100% auto;
+    margin-top: 5%;
+}
+.half-1{
+    border: 0px solid #0c5bda;
+    width: 100%;
+    height: auto;
+}
+.half-2{
+    border: 0px solid #fd0000;
+    margin-top: 2%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.make-1 , .make-2{
+    font-weight: 800;
+    font-size: 350%;
+}
+.make-2{
+    color: rgb(2,184,179);
+    color: linear-gradient(90deg, rgba(2,184,179,1) 45%, rgba(0,174,246,0.9893207282913166) 99%);
+    line-height: 50px;
+    margin-top: 1%;
+}
+.our{
+    color: grey;
+}
+.start-btn , .learn-btn{
+    border: 6px solid ;
+    text-decoration: none;
+    height: 6vh;
+    width: 16%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.start-btn{
+    background: rgb(1,251,243);
+    background: linear-gradient(90deg, rgba(1,251,243,1) 0%, rgba(0,65,255,1) 77%);
+    margin-right: 3%;
+    color: white;
+}
+.learn-btn{
+    background: rgb(2,184,179);
+background: linear-gradient(90deg, rgba(2,184,179,1) 45%, rgba(0,0,0,0.9893207282913166) 99%);
+color: white;
+}
+/* .explore{
+    margin-top: auto;
+    font-weight: bolder;
+    border: 0px solid rgb(0, 238, 67);
+} */
+.section-2{
+    border: 0px solid rgb(0, 190, 238);
+    margin-bottom: 3%;
+}
+.pad{
+    display: flex;
+    margin-top: 5%;
+    border: 0px solid green;
+    width: 100%;
+}
+.straight{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 0px solid red;
+    width: 50%;
+    text-align: justify;
+}
+.straight-1{
+    border: 2px solid rgb(219, 219, 219);
+    padding: 3%;
+    margin-top: 1.5%;
+}
+.straight-1:hover{
+    background-color: rgba(206, 206, 206, 0.854);
+}
+.con-1{
+    margin-top: 1%;
+}
+.power-2{
+    color: #000;
+}
+.crop-2{
+    border: 0px solid;
+    width: 100%;
+    height: 60%;
+    size-adjust: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+}
+.card-1 , .card-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.ca{
+    border: 0px solid #000000;
+    margin-right: 1%;
+    background-color: white;
+    box-shadow: 3px 3px 5px grey;
+}
+.ca-1{
+    border: 0px solid black;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    background-color: white;
+    box-shadow: 3px 3px 5px grey;
+}
+.img-3{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.lo{
+    margin: 5% 5%;
+}
+.con-2{
+    margin: 1% 0% 3% 0%;
+}
+.company{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(133, 132, 132);
+    font-size: large;
+    font-weight: bold;
+    margin: 3% 0%;
+}
+.l{
+    margin-top: 1%;
+}
+.box-1{
+    border: 2px solid rgb(221, 220, 220);
+    width: 70%;
+    box-shadow: 3px 3px 5px grey;
+}
+.box{
+    border: 0px solid rgb(9, 222, 80);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+.box-1 h5{
+    margin-top: 3%;
+}
+.box-1 p{
+    margin-top: 2%;
+}
+.ceo{
+    color: rgb(112, 110, 110);
+    margin-bottom: 5%;
+}
+.link{
+    text-decoration: none;
+    color: rgb(36, 188, 248);
+}
+.box-2{
+    border: 0px solid gold;
+    width: 100%;
+    margin: 5% 0% 2% 3%;
+}
+.section-4{
+    display: flex;
+    text-align: left;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 31%, rgba(39,35,37,1) 51%);
+color: white;
+}
+.le{
+    margin-top: 3%;
+    color: rgb(168, 167, 167);
+    margin-bottom: 4%;
+}
+.text{
+    height: 3.5vh;
+    width: 40%;
+    padding-left: 1%;
+    border-radius: 2%;
+    border: 2px solid #000000;
+}
+.submit{
+    height: 4vh;
+    width: 25%;
+    background: rgb(14,187,244);
+background: linear-gradient(90deg, rgba(14,187,244,1) 19%, rgba(29,62,72,1) 82%);
+border-radius: 10%;
+}
+.end{
+    display: flex;
+    width: 100%;
+    border: 0px solid rgb(255, 0, 153);
+    justify-content: end;
+    opacity: 0.9;
+}
+.end-1{
+    height: 100%;
+    border: 0px solid rgb(0, 255, 123);
+    margin-right: 8%;
+}
+.foot{
+    border: 0px solid rgb(140, 0, 255);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6%;
+}
+.li{
+    margin: 6% 0% 15% 0%;
+}
+.bg{
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 72%, rgba(255,255,255,1) 73%);
+}
+section div h1{
+    margin-top: 4%;
+}
+header .nav .logo{
+    margin-right: 60%;
+}
+.submit{
+    color: white;
+    font-weight: bold;
+}
+.again{
+    border: 0px solid greenyellow;
+    height: auto;
+}
+.box-3{
+    border:0px solid #fd0000;
+}
+.crop-1{
+    width: 50%;
+}
+@media only screen and (max-width: 725px) {
+    .make-1 , .make-2{
+        font-size: 200%;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .li-1 , .li-2{
+        height: 2vh;
+        width: 100px;
+    }
+    .start-btn , .learn-btn{
+        width: 150px;
+    }
+    .pad{
+        display: block;
+    }
+     .straight{
+        width: 100%;
+    }
+    .foot span{
+        margin-left: 2%;
+    }
+  }
+  @media only screen and (max-width: 475px) {
+    .end-1{
+      display: none;
+    }
+    .foot{
+        font-size: small;
+    }
+    .company{
+        font-size: small;
+    }
+  }
+  @media only screen and (max-width: 375px){
+    .foot{
+        font-size: xx-small;
+    }
+  }
